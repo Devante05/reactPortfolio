@@ -8,7 +8,8 @@ import { BsHammer } from 'react-icons/bs';
 import {  
   FaLinkedin,
   FaEnvelope,
-  FaGithub
+  FaGithub,
+  FaDownload
 } from 'react-icons/fa';
 
 function Navbar() {
@@ -102,6 +103,15 @@ function Navbar() {
               aria-label='LinkedIn'
             >
               <FaLinkedin />
+            </Link>
+            <Link
+              className='nav-links'
+              to= "/images/DevantesResume.pdf"
+              target='_blank'
+              
+              aria-label='Resume'
+            >Resume 
+              <FaDownload />
             </Link>
           
               

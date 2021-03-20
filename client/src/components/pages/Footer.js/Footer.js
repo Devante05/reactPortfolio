@@ -25,7 +25,7 @@ function Footer() {
 
           <div className='footer-link-items'>
             <h2>Social Media</h2>
-            <Link to='/'>LinkedIn</Link>
+            <Link to={'/'}>LinkedIn</Link>
             <Link to='/'>Github</Link>
             <Link to='/'>Email</Link>
           </div>
