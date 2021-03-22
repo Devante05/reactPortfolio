@@ -5,7 +5,7 @@ import './Navbar.css';
 import { FaBars, FaTimes } from 'react-icons/fa';
 import { IconContext } from 'react-icons/lib';
 import { BsHammer } from 'react-icons/bs';
-import {  
+import {
   FaLinkedin,
   FaEnvelope,
   FaGithub,
@@ -31,7 +31,7 @@ function Navbar() {
   useEffect(() => {
     showButton();
     window.addEventListener('resize', showButton);
-    return {
+    return () => {
       // window.removeEventListener('resize', showButton)
     }
   }, []);
@@ -42,7 +42,7 @@ function Navbar() {
       <IconContext.Provider value={{ color: '#fff' }}>
         <nav className='navbar'>
           <div className='navbar-container container'>
-            <Link to='/' className='navbar-logo' id= "nameHead" onClick={closeMobileMenu}>
+            <Link to='/' className='navbar-logo' id="nameHead" onClick={closeMobileMenu}>
               <BsHammer className='navbar-icon' />
               Devante's Fullstack Portfolio
                           </Link>
@@ -73,49 +73,49 @@ function Navbar() {
                   Projects
                 </Link>
               </li>
-              
 
-            <Link
-              className='nav-links'  
-              to='/'
-              target='_blank'
-              aria-label='Email'
-            >
-              <FaEnvelope />
-            </Link>
-            <Link
-              className='nav-links'
-              to={
-                '//github.com/Devante05'
-              }
-              target='_blank'
-              aria-label='Github'
-            >
-              <FaGithub />
-            </Link>
 
-            <Link
-              className='nav-links'
-              to={
-                '//www.linkedin.com/in/devante-williams-'
-              }
-              target='_blank'
-              aria-label='LinkedIn'
-            >
-              <FaLinkedin />
-            </Link>
-            <Link
-              className='nav-links'
-              to= "/images/DevantesResume.pdf"
-              target='_blank'
-              
-              aria-label='Resume'
-            >Resume 
+              <Link
+                className='nav-links'
+                to='/'
+                target='_blank'
+                aria-label='Email'
+              >
+                <FaEnvelope />
+              </Link>
+              <Link
+                className='nav-links'
+                to={
+                  '//github.com/Devante05'
+                }
+                target='_blank'
+                aria-label='Github'
+              >
+                <FaGithub />
+              </Link>
+
+              <Link
+                className='nav-links'
+                to={
+                  '//www.linkedin.com/in/devante-williams-'
+                }
+                target='_blank'
+                aria-label='LinkedIn'
+              >
+                <FaLinkedin />
+              </Link>
+              <Link
+                className='nav-links'
+                to="/images/DevantesResume.pdf"
+                target='_blank'
+
+                aria-label='Resume'
+              >Resume
               <FaDownload />
-            </Link>
-          
-              
-              
+              </Link>
+
+
+
             </ul>
           </div>
         </nav>
