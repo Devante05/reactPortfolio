@@ -32,7 +32,7 @@ function Navbar() {
     showButton();
     window.addEventListener('resize', showButton);
     return {
-    //   window.removeEventListener('resize', showButton)
+      // window.removeEventListener('resize', showButton)
     }
   }, []);
 
@@ -42,7 +42,7 @@ function Navbar() {
       <IconContext.Provider value={{ color: '#fff' }}>
         <nav className='navbar'>
           <div className='navbar-container container'>
-            <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
+            <Link to='/' className='navbar-logo' id= "nameHead" onClick={closeMobileMenu}>
               <BsHammer className='navbar-icon' />
               Devante's Fullstack Portfolio
                           </Link>
