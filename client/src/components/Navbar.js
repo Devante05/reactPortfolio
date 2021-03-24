@@ -73,49 +73,15 @@ function Navbar() {
                   Projects
                 </Link>
               </li>
-
-
-              <Link
-                className='nav-links'
-                to='/'
-                target='_blank'
-                aria-label='Email'
-              >
-                <FaEnvelope />
-              </Link>
-              <Link
-                className='nav-links'
-                to={
-                  '//github.com/Devante05'
-                }
-                target='_blank'
-                aria-label='Github'
-              >
-                <FaGithub />
-              </Link>
-
-              <Link
-                className='nav-links'
-                to={
-                  '//www.linkedin.com/in/devante-williams-'
-                }
-                target='_blank'
-                aria-label='LinkedIn'
-              >
-                <FaLinkedin />
-              </Link>
-              <Link
-                className='nav-links'
-                to="/images/DevantesResume.pdf"
-                target='_blank'
-
-                aria-label='Resume'
-              >Resume
-              <FaDownload />
-              </Link>
-
-
-
+              <li className= "nav-item" ><a className= "nav-links" href="mailto:williams.devante05@gmail.com">< FaEnvelope /></a>
+              </li>
+              <li className= "nav-item" ><a className= "nav-links" href="https://github.com/Devante05">< FaGithub /></a>
+              </li>
+              <li className= "nav-item" ><a className= "nav-links" href="https://www.linkedin.com/in/devante-williams-/">< FaLinkedin /></a>
+              </li>
+              <li className= "nav-item" ><a className= "nav-links" href="images/DevanteResume1.pdf" download>
+              <FaDownload /></a>
+              </li>
             </ul>
           </div>
         </nav>
