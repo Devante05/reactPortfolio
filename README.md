@@ -28,7 +28,6 @@
 
 <br>
 
-![](gif here)
 
 
 ### `Questions?`
@@ -38,4 +37,3 @@ Please don't hesitate to contact me.
 #### [Devante Williams](https://www.linkedin.com/in/devante-williams-/)
 
 
-© copyright 2021 Full Stache Web Developers
