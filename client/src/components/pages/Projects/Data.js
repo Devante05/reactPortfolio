@@ -53,7 +53,7 @@ export const homeObjOne = {
     topLine: 'React',
     headline: 'User Directory',
     description:
-      'The User Directory was created to sort through a given set of individuals using React as a frontend. The application uses a third party api to pull 50 random individuals from around the world. The user is then able to sort through the given individuals alphabetically or un-alphabetically by first-name, last-name, email, and country. The user is also able to search by name through input form',
+      'The User Directory was created to sort through a given set of individuals using React as a frontend. The application uses a third party api to pull 50 random individuals from around the world. The user is then able to sort through the given individuals alphabetically or un-alphabetically by first-name, last-name, email, and country. The user is also able to search by name through input form.',
     buttonLabel: 'Sign Up Now',
     imgStart: 'start',
     img: 'images/empDir.png',
