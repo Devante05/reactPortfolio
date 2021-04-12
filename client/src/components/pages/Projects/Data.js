@@ -14,7 +14,7 @@ export const homeObjOne = {
     liveLink: "https://follow-my-fitness.herokuapp.com/"
   };
   
-  export const homeObjTwo = {
+  export const homeObjFour = {
     lightBg: false,
     lightText: true,
     lightTextDesc: true,
@@ -46,18 +46,18 @@ export const homeObjOne = {
     liveLink: "https://thebudget-tracking-app.herokuapp.com/"
   };
   
-  export const homeObjFour = {
+  export const homeObjTwo = {
     lightBg: false,
     lightText: true,
     lightTextDesc: true,
     topLine: 'React',
-    headline: 'User Directory',
+    headline: 'Wepoo',
     description:
-      'The User Directory was created to sort through a given set of individuals using React as a frontend. The application uses a third party api to pull 50 random individuals from around the world. The user is then able to sort through the given individuals alphabetically or un-alphabetically by first-name, last-name, email, and country. The user is also able to search by name through input form.',
+      'Wepoo is a React PWA that can be downloaded to the home screen of your smartphone, to locate, rate and review local public bathrooms. The app uses google maps api and google places api to populate our map. The reviews are saved to a mongoDB database. The server is built with Express and Node.js',
     buttonLabel: 'Sign Up Now',
     imgStart: 'start',
-    img: 'images/empDir.png',
-    alt: 'Employee Directory',
-    gitLink: "https://github.com/Devante05/employeeDirectory",
-    liveLink: "https://the-employees-directory.herokuapp.com/"
+    img: 'images/wePoo.png',
+    alt: 'Wepoo',
+    gitLink: "https://github.com/carpegavin/WePoo",
+    liveLink: "https://wepoo-app.herokuapp.com/"
   };

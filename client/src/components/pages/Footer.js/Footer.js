@@ -33,13 +33,7 @@ function Footer() {
       </div>
       <section className='social-media'>
         <div className='social-media-wrap'>
-          <div className='footer-logo'>
-            <Link to='/' className='social-logo'>
-            <BsHammer className='navbar-icon' />
-              Devante's Fullstack Portfolio
-            </Link>
-          </div>
-          <small className='website-rights'>DevDev © 2020</small>
+ 
           
         </div>
       </section>
