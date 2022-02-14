@@ -79,7 +79,7 @@ function Navbar() {
               </li>
               <li className= "nav-item" ><a className= "nav-links" href="https://www.linkedin.com/in/devante-williams-/">< FaLinkedin /></a>
               </li>
-              <li className= "nav-item" ><a className= "nav-links" href="images/DevanteWilliamsResume.pdf" download>
+              <li className= "nav-item" ><a className= "nav-links" href="images/DevanteWilliamsResume1.docx.pdf" download>
               <FaDownload /></a>
               </li>
             </ul>
