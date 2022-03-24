@@ -11,7 +11,7 @@
 * Node.JS
 * MongoDB
 * Bootstrap
-* Javascript
+* Javascript 
 * HTML
 * CSS
 * Heroku
